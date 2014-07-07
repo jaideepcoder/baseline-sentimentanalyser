@@ -5,6 +5,10 @@ A program to determine the sentiment of a review using Naive Bayes classifier tr
 
     class BaselineSentimentAnalyser
      |  A program to determine the sentiment of a review using Naive Bayes classifier trained on labeled data and maximum likelihood n-gram language model.
+     |  Usage:
+     |  >>> bsa = BaselineSentimentAnalyser(['pos', 'neg'], 'documents/review_polarity/txt_sentoken/')
+     |  >>> bsa.classify('documents/review.txt')
+     |  pos
      |  
      |   Methods defined here:
      |  
